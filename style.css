@@ -1,0 +1,197 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#19131D);
+}
+/*styling of container*/
+#container{
+    height: 550px;
+    width: 750px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 180px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px 0px #ccc;
+    position: relative;
+}
+/*styling end of container*/
+
+/*styling of score start*/
+#score{
+    background-color: rgba(0,0,0,0.5);
+    color: aliceblue;
+    position: absolute;
+    left: 680px;
+    padding: 20px;
+    box-shadow: 0px 2px 0px #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+/*end of styling score*/
+
+/*styling of correct start*/
+#correct{
+    background-color: darkgreen;
+    color: aliceblue;
+    position: absolute;
+    left: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: none;
+}
+/*styling of correct end*/
+
+/*styling of try again start*/
+#wrong{
+    background-color: darkred;
+    color: aliceblue;
+    position: absolute;
+    left: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: none;
+    
+}
+/*styling of try again ends*/
+
+/*styling of question start*/
+#question{
+    height: 180px;
+    width: 570px;
+    margin: 76px auto 10px auto;
+    background-color:rgba(51,204,204,0.2);
+    border-radius: 10px;
+    box-shadow: 0px 2px 0px #336633 ;
+    font-size: 150px;
+    text-align: center;
+    
+}
+/*styling of question ends*/
+
+/*styling of instruction start*/
+#instruction{
+    height: 50px;
+    width: 570px;
+    background-color: rgba(102,0,0,0.6);
+    margin: 10px auto;
+    border-radius: 10px;
+    font-size: 28px;
+    text-align: center;
+    color:aliceblue;
+    line-height: 45px;
+}
+/*styling of instruction end*/
+
+/*styling of choice start*/
+#choice{
+    height: 130px;
+    width: 570px;
+    margin: 5px auto;
+    
+}
+/*styling of choice end*/
+
+/*styling of box class start*/
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    float: left;
+    margin-right: 55px; 
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 97px;
+    box-shadow: 0px 2px rgba(0,0,0,0.8);
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+}
+/*styling of box class end*/
+
+/*box 4 for margin set */
+#box4{
+    margin-right: 0px;
+}
+
+/*hover the mouse on choices styling  start */
+
+.box:hover,#startreset{
+    background-color: rgba(0,0,0,0.4);
+    color: aliceblue;
+    box-shadow: 0px 2px #ccc;
+}
+/*hover the mouse on choices styling  end */
+
+/*movement of box styling start*/
+.box:active{
+    box-shadow: 0px 0px #ccc;
+    top: 4px;
+
+}
+/*movement of box styling end*/
+
+/*startreset styling */
+#startreset{
+
+    width: 100px;
+    background-color:rgba(146, 7, 51, 1);
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    left: 345px;
+    margin:0px auto;
+    transition: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 2px #000;
+}
+/*startreset styling end*/
+
+/*movement of start game */
+#startreset:active{
+    top: 4px;
+    box-shadow: 0px 0px #ccc;
+}
+/*movement of start game end */
+
+/*styling of time remaining start*/
+#timeremaining{
+    width: 200px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 15px;
+    margin: -52px 520px;
+    border-radius: 10px;
+    box-shadow: 0px 2px #ccc;
+/*    visibility: hidden;*/
+    display: none;
+    
+}
+/*styling of time remaining end*/
+
+/*score card styling start*/
+#scoreCard{
+    height: 300px;
+    width: 550px;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8));
+    position: absolute;
+    top: 100px;
+    color: white;
+    font-size: 39px;
+    left: 45px;
+    z-index: 2;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0px 75px auto;
+    display: none;
+    
+}
+/*score card styling end*/
+
+
